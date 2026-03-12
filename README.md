@@ -67,17 +67,9 @@ plt.show()
 ~~~
 
 # Output 
-~~~
-Enter the values of X separated by space
- 25 28 35 32 31 36 29 38 34 32
-Enter the values of Y separated by space
- 43 46 49 41 36 32 31 30 33 39
-[25 28 35 32 31 36 29 38 34 32]
-[43 46 49 41 36 32 31 30 33 39]
-10
-The Regression Y on X is Y = -0.664 ( X - 32.000) + 38.000
-~~~
-<img width="859" height="645" alt="Screenshot 2026-03-12 112852" src="https://github.com/user-attachments/assets/5ab37e6d-17cf-4334-9f43-50f89c9f73b8" />
+<img width="859" height="790" alt="Screenshot 2026-03-12 113632" src="https://github.com/user-attachments/assets/08a5de36-54da-412a-9ae4-13ce9742b6f5" />
+
+
 
 
 
