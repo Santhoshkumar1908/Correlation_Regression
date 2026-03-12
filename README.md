@@ -81,5 +81,9 @@ The Regression Y on X is Y = -0.664 ( X - 32.000) + 38.000
 
 
 
+
+
+
+
 # Result
 The correlation and regression for data analysis of objects from feeder using probability distribution are calculated.
