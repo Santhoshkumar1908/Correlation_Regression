@@ -5,7 +5,6 @@ To analyse given data using coeffificient of correlation and regression line
 ![image](https://user-images.githubusercontent.com/104613195/168224136-d6b64e64-7d3d-4775-9337-c8f96fe41f2d.png)
 
 # Software required :  
-
 Python
 
 # Theory:
@@ -62,9 +61,9 @@ plt.show()
 
 ~~~
 
-
 # Output 
 <img width="859" height="790" alt="Screenshot 2026-03-12 113632" src="https://github.com/user-attachments/assets/08a5de36-54da-412a-9ae4-13ce9742b6f5" />
 
 # Result
+
 The correlation and regression for data analysis of objects from feeder using probability distribution are calculated.
