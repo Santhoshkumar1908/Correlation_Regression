@@ -4,7 +4,6 @@
 To analyse given data using coeffificient of correlation and regression line
 ![image](https://user-images.githubusercontent.com/104613195/168224136-d6b64e64-7d3d-4775-9337-c8f96fe41f2d.png)
 
-
 # Software required :  
 
 Python
@@ -23,39 +22,30 @@ If y represents the dependent variable and x the independent variable, this rela
 ~~~
 import numpy as np
 import matplotlib.pyplot as plt
-
 # Getting Inputs
 print("Enter the values of X separated by space")
 X = np.array([int(i) for i in input().split()])
-
 print("Enter the values of Y separated by space")
 Y = np.array([int(i) for i in input().split()])
-
 N = len(X)
 print(X, Y, N, sep='\n')
-
 # Calculating Sums and Means
 SumX = np.sum(X)
 SumY = np.sum(Y)
 SumX2 = np.sum(X**2)
 SumY2 = np.sum(Y**2)
 SumXY = np.sum(X * Y)
-
 MeanX = SumX / N
 MeanY = SumY / N
-
 # Calculating Regression Coefficient
 num = (N * SumXY) - (SumX * SumY)
 den = (N * SumX2) - (SumX**2)
 RegressionCoef = num / den
-
 # Regression Line Equation
 print(f"The Regression Y on X is Y = {RegressionCoef:.3f} ( X - {MeanX:.3f}) + {MeanY:.3f}")
-
 # Define Regression Function
 def Regression(x):
     return MeanY + (RegressionCoef * (x - MeanX))
-
 # Plotting the Graph
 plt.scatter(X, Y)
 plt.plot(X, Regression(X))
@@ -66,10 +56,8 @@ plt.show()
 
 ~~~
 
-
 # Output 
 <img width="859" height="790" alt="Screenshot 2026-03-12 113632" src="https://github.com/user-attachments/assets/08a5de36-54da-412a-9ae4-13ce9742b6f5" />
+
 # Result
-
-
 The correlation and regression for data analysis of objects from feeder using probability distribution are calculated.
